@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/loginAndRegister.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <title>3DPoints - Login</title>
+</head>
+
+<body>
+    <div class="limiter">
+        <div class="cont cont-login">
+            <h1>Bem-Vindo!</h1>
+            <div class="div-logo logo-login">
+                <img src="assets/imgs/logo.svg">
+            </div>
+        </div>
+        <div class="div-form form-login">
+            <form action="#" method="POST">
+                <div class="form-group group-login">
+                    <label class="label-login" for="matricula">Número da Matrícula:</label>
+                    <input class="input-login" type="number" id="matricula" name="matricula" required maxlength="10">
+                </div>
+                <div class="form-group">
+                    <label class="label-login" for="senha">Senha:</label>
+                    <input class="input-login" type="password" id="senha" name="senha" required>
+                </div>
+                <div class="div-btn div-btnLogin">
+                    <button class="btn-login" type="submit">Fazer login</button>
+                </div>
+                <div class="option option-login">
+                    <p>Não tem conta?</p>
+                    <a href="register.html">Fazer cadastro!</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

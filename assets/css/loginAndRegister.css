@@ -1,0 +1,183 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --principal-blue: #015671;
+    --font-inter: "Inter", serif;
+    --background-gray: #F2F2F2;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-gray);
+}
+
+.limiter {
+    width: 95%;
+    height: 95%;
+    background-color: var(--white);
+    border-radius: 20px;
+}
+
+.cont {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cont-login {
+    height: 30%;
+}
+
+.cont h1 {
+    font-size: 1.6rem;
+    color: var(--black);
+    font-family: var(--font-inter);
+}
+
+.cont-login h1 {
+    font-size: 1.8rem;
+}
+
+.div-logo img {
+    height: 80px;
+    width: auto;
+}
+
+.logo-login img {
+    height: 100%;
+}
+
+.div-form {
+    width: 100%;
+    height: 75%;
+    padding: 10px 25px;
+}
+
+.form-login {
+    padding-top: 20px;
+    height: 70%;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.form-group {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    margin-bottom: 25px;
+}
+
+.group-login {
+    row-gap: 5px;
+    margin-bottom: 40px;
+}
+
+label {
+    font-size: 1.1rem;
+    color: var(--black);
+    font-family: var(--font-inter);
+}
+
+.label-login {
+    font-size: 1.3rem;
+}
+
+input {
+    padding: 5px 10px;
+    font-size: 1rem;
+    color: var(--black);
+    border: 2px solid var(--principal-blue);
+    border-radius: 5px;
+}
+
+.input-login {
+    padding: 8px 15px;
+    font-size: 1.2rem;
+}
+
+select {
+    padding: 5px 10px;
+    font-size: 1rem;
+    color: var(--black);
+    border: 2px solid var(--black);
+    border-radius: 5px;
+}
+
+.div-btn {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.div-btnLogin {
+    margin-top: 30px;
+}
+
+.div-btn button {
+    width: 70%;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-family: var(--font-inter);
+    background-color: var(--principal-blue);
+    color: var(--white);
+    border: 2px solid var(--principal-blue);
+    border-radius: 50px;
+}
+
+.btn-login {
+    width: 80% !important;
+    padding: 15px 20px !important;
+    font-size: 1.3rem !important;
+}
+
+.option {
+    margin-top: 33px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.option p,
+.option a {
+    font-size: 1rem;
+    color: var(--black);
+    font-family: var(--font-inter);
+}
+
+.option a {
+    color: var(--principal-blue);
+}
+
+.option-login {
+    margin-top: 60px;
+}
+
+.option-login p,
+.option-login a {
+    font-size: 1.1rem;
+}
